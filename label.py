@@ -125,7 +125,6 @@ df_train = df_both.iloc[:96,:]
 df_val = df_both.iloc[96:,:]
 df_test = df.iloc[96:,:]
 print(df_train.head())
-print(len(df_train),len(df_val), len(df_test))
 
 train(model, df_train, df_val, LR, EPOCHS)
 
